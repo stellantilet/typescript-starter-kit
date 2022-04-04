@@ -1,7 +1,7 @@
 {
   "name": "typescript-starter-kit",
   "version": "1.0.0",
-  "description": "Typescript NPM package starter kit",
+  "description": "A typescript starter for building javascript libraries and projects",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -10,6 +10,17 @@
   "repository": "https://github.com/stellantilet/typescript-starter-kit.git",
   "author": "stellantilet <stellantilet@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "typescript",
+    "starter",
+    "template",
+    "boilerplate",
+    "library",
+    "node",
+    "typedoc",
+    "eslint",
+    "standard-version"
+  ],
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "test": "jest",
