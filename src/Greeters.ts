@@ -1,7 +1,5 @@
-class Greeters {
+export class Greeters {
   public sayHelloTo (name: string): string {
-    return `🦄 Hello ${name} !`
+    return `Hello ${name}`
   }
 }
-
-export default Greeters
